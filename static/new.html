@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password Manager</title>
+	<link rel="stylesheet" href="css/new.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<div class="flex-title">
+		<a id="logout" href="index.html"><i class='bx bx-arrow-back'></i></a>
+		<h1 class="title">Password Manager</h1>
+	</div>
+	<div class="info-div">
+		<input id="app" type="text" placeholder="Password for..." maxlength=20><br>
+		<input id="desc" type="text" placeholder="Description" maxlength=50><br>
+		<div>
+			<label>Account type: </label>
+			<select id="type">
+    			<option value="Main">Main</option>
+    			<option value="Alt">Alt</option>
+ 			</select><br>
+ 		</div>
+ 		<input id="usern" type="text" placeholder="Username/Email" maxlength=50><br>
+ 		<input id="pass" type="password" placeholder="Password"><br>
+ 		<a id="addnew">Save Password</a>
+	</div>
+	<script type="text/javascript" src="js/new.js"></script>
+</body>
+</html>

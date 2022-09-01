@@ -1,0 +1,65 @@
+.info-div{
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+}
+
+.info-div input{
+	background: #242526;
+	border-radius: 10px;
+	padding: 10px;
+	border:none;
+	font-size: 20px;
+	width: 500px;
+	margin-bottom: 10px;
+	color: white;
+	outline: none;
+}
+
+.info-div div{
+	margin-bottom: 10px;
+}
+
+.info-div div label{
+	font-weight: 500;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.info-div div select{
+	appearance: none;
+	background: #242526;
+	border-radius: 10px;
+	padding: 10px;
+	border:none;
+	font-size: 20px;
+	width: 220px;
+	margin-bottom: 10px;
+	color: white;
+	outline: none;
+	align-items: center;
+	justify-content: end;
+}
+
+
+.info-div a{
+	background: #242526;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+	width: 500px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	animation-name: unBoxShadow;
+	animation-duration: .4s;
+	cursor: pointer;
+}
+
+.info-div  a:hover{
+	animation-name: boxShadow;
+	animation-duration: .4s;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

@@ -1,0 +1,54 @@
+.pass-div-outer{
+	width: 600px;
+	height: auto;
+	background: #242526;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin-bottom: 20px;
+	padding-bottom: 40px;
+}
+
+.pass-title-div{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	margin-bottom: 7px;
+}
+
+.pass-title-div img{
+	width: 40px;
+	height: 40px;
+}
+
+.pass-div-outer p{
+	font-size: 20px;
+	overflow: hidden;
+}
+
+.pass-div-outer input{
+	background: #3A3B3C;
+	border-radius: 10px;
+	padding: 10px;
+	border:none;
+	font-size: 20px;
+	width: 500px;
+	color: white;
+	outline: none;
+	margin-top: 20px;
+	cursor: pointer;
+
+	user-select: none;
+    -webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
+}
+
+.pass-div-outer input::selection{
+	background: #3A3B3C;
+}
+
+.pass-title-div p{
+	font-size: 30px;
+	font-weight: 700;
+}

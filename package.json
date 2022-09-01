@@ -1,0 +1,14 @@
+{
+  "name": "password-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "ngn13",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^20.1.0"
+  }
+}

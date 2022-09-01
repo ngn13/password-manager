@@ -1,0 +1,64 @@
+#flex-pass-div{
+	display: flex;
+	flex-direction: column;
+}
+
+.pass-div-outer{
+	width: 600px;
+	height: auto;
+	background: #242526;
+	border-radius: 10px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	animation-name: unBoxShadow;
+	animation-duration: .4s;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+.pass-div-outer img{
+	width: 40px;
+	height: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 30px;
+}
+
+.pass-div-outer:hover{
+	animation-name: boxShadow;
+	animation-duration: .4s;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.pass-title{
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.pass-desc{
+	margin-bottom: 5px;
+}
+
+#logout{
+	background: #242526;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	width: 25px;
+	height: 20px;
+}
+
+#create{
+	background: #242526;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	width: 25px;
+	height: 20px;
+	text-align: center;
+}
